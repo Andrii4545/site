@@ -1,0 +1,155 @@
+*{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.content{
+    width: 1600px;
+}
+.header{
+    width: 100%;
+    height: 700px;
+    background-image: url(/img/neonbrand-570373-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 400px;
+    height: 400px;
+    background-color: #2E4344;
+    opacity: 0.9;
+}
+.button{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.window-join{
+    height: 80%;
+    width: 100%;
+    display: block;
+}
+.window-join form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+.window-join form p {
+    width: 80%;
+    margin: 0 20px;
+}
+.window-join form input{
+    width: 90%;
+    height: 20%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.join-button{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-color: #2E4344;
+    opacity: 0.9;
+}
+.join-button:hover{
+    background-color: white;
+    color: black;
+}
+.window-sing{
+    display: none;
+    height: 80%;
+    width: 100%;
+}
+.window-sing form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+.window-sing form input{
+    width: 90%;
+    height: 20%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+.active{
+    display: block;
+}
+.noactive{
+    display: none;
+}
+.body{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+.body-icon{
+    text-align: center;
+    border-radius: 20%;
+    transition: ease-in-out .4s;
+    width: 200px;
+}
+.body-icon:hover{
+    /* background-color: rgb(152, 152, 253); */
+    transform: scale(1.15);
+}
+.body h2 {
+    color: #00a8b2;
+}
+.p-head{
+    color: #00a8b2;
+}
+.body-icon a, .body-icon a:active{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(43, 40, 43);
+    display: flex;
+    align-items: center;
+}
+.logo-ft{
+    margin-left: 40px;
+}
+.conect{
+    display: flex;
+}
+.conect p{
+    color: white;
+}
+.line-ft{
+    margin: 0px 5px 2px 5px;
+}
+.ft-email{
+    display: flex;
+    flex-direction: column;
+}
+.ft-email a, .ft-email a:active{
+    text-decoration: none;
+    color: white;
+}
