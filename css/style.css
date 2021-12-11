@@ -25,9 +25,9 @@
 .form{
     width: 400px;
     height: 400px;
-    background-color: #2E4344;
-    opacity: 0.9;
-}
+    /* background-color: #2E4344;
+    opacity: 0.9;  */
+} 
 .button{
     height: 20%;
     width: 100%;
@@ -38,6 +38,7 @@
     height: 80%;
     width: 100%;
     display: block;
+    background-color: rgb(46, 69, 70, 0.9);
 }
 .window-join form {
     display: flex;
@@ -63,8 +64,7 @@
     border: 0;
     cursor: pointer;
     color: white;
-    background-color: #2E4344;
-    opacity: 0.9;
+    background-color: rgb(46, 69, 70, 0.9);
 }
 .join-button:hover{
     background-color: white;
@@ -74,6 +74,7 @@
     display: none;
     height: 80%;
     width: 100%;
+    background-color: rgb(46, 69, 70, 0.9);
 }
 .window-sing form {
     display: flex;
@@ -119,9 +120,10 @@
     border-radius: 20%;
     transition: ease-in-out .4s;
     width: 200px;
+    padding: 4px;
 }
 .body-icon:hover{
-    background-color: rgb(152, 152, 253);
+    background-color: rgb(152, 152, 253, 0.5);
     transform: scale(1.15);
 }
 .body h2 {
@@ -206,13 +208,14 @@
     .form{
         width: 100%;
     }
-    /* .ft-email{
-        margin-right: 0;
-    } */
 }
 @media (max-width: 317px){
     .body-icon {
         width: 100px;
+        padding: 0;
+    }
+    .body{
+        height: 700px;
     }
     .footer{
         flex-wrap: wrap;
