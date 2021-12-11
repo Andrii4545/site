@@ -1,10 +1,10 @@
 *{
-    margin:0 auto;
+    margin: 0;
     box-sizing: border-box;
 }
-
 .content{
     width: 1600px;
+    margin: 0 auto;
 }
 .header{
     width: 100%;
@@ -13,8 +13,14 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+}
+.logo-hd{
+    max-width: 300px;
+}
+.logo-hd p{
+    font-size: 40px;
 }
 .form{
     width: 400px;
@@ -41,8 +47,8 @@
 
 }
 .window-join form p {
-    width: 80%;
-    margin: 0 20px;
+    /* width: 80%; */
+    margin: 0 23px;
 }
 .window-join form input{
     width: 90%;
@@ -82,6 +88,9 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+.submit-btn{
+    background-color: #ff6600;
+}
 .submit-btn:hover{
     cursor: pointer;
 }
@@ -93,7 +102,7 @@
 }
 .body{
     width: 100%;
-    height: 400px;
+    height: 600px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -130,6 +139,7 @@
     height: 150px;
     background-color: rgb(43, 40, 43);
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .logo-ft{
@@ -147,8 +157,62 @@
 .ft-email{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-right: 40px;
 }
 .ft-email a, .ft-email a:active{
     text-decoration: none;
+  
     color: white;
+}
+.ft-email a:hover{
+    color: blue;
+}
+
+@media (max-width: 1600px){
+    .content{
+        width: 100%;
+    }
+}
+@media (max-width: 1600px){
+    .body-conteiner{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 800px){
+    .header{
+       flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    .body-icon{
+        width: 150px;
+    }
+}
+@media (max-width: 430px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-ft, .ft-email{
+        margin: 0;
+    }
+    
+}
+@media (max-width: 420px){
+    .form{
+        width: 100%;
+    }
+    /* .ft-email{
+        margin-right: 0;
+    } */
+}
+@media (max-width: 317px){
+    .body-icon {
+        width: 100px;
+    }
+    .footer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
