@@ -127,6 +127,9 @@
 .body h2 {
     color: #00a8b2;
 }
+.body div p{
+    margin-top: 15px;
+}
 .p-head{
     color: #00a8b2;
 }
